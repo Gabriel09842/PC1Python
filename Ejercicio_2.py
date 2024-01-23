@@ -10,5 +10,3 @@ porcentaje = int(input('Porcentaje de propina que desea dejar al mesero: '))
 montoFinal = round(consumo * (porcentaje/100),2)
 
 print(f"El monto de propina es: {montoFinal} soles")
-
-

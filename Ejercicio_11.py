@@ -12,3 +12,4 @@ for elemento in lista_original:
         lista_procesada.append(elemento)
 
 print(lista_procesada)
+

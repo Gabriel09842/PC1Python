@@ -19,3 +19,4 @@ elif 18 <= hora_numerica <= 19:
     print("Es hora de cenar.")
 else:
     print('Hora no válida')
+
