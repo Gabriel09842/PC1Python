@@ -3,3 +3,9 @@
 #encuentran en la posición 0, 4 y 5.
 #lista de muestra: ['Rojo', 'Verde', 'Blanco', 'Negro', 'Rosa', 'Amarillo']
 #Resultado esperado: ['Verde', 'Blanco', 'Negro']
+
+colores = ['Rojo', 'Verde', 'Blanco', 'Negro', 'Rosa', 'Amarillo']
+colores.remove(colores[5])
+colores.remove(colores[4])
+colores.remove(colores[0])
+print(colores)

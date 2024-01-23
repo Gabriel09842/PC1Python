@@ -7,4 +7,4 @@
 #suponga que el rango de tiempo de cada comida es inclusivo. Por ejemplo, ya sean las 7:00, las 7:01,
 #las 7:59 o las 8:00, o en cualquier momento intermedio, es hora de desayunar.
 
-hora = input()
+hora = input('Ingresa una hora del dia: ')
