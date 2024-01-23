@@ -5,3 +5,10 @@
 #cada muñeca 75 g. Escribir un programa que lea el número de payasos y muñecas vendidos en el
 #último pedido y calcule el peso total del paquete que será enviado
 
+nroPayasos = int(input('Ingrese el numero de payasos vendidos: '))
+nroMuñecas = int(input('Ingrese el numero de muñecas vendidas: '))
+pesoPayaso = 112
+pesoMuñecas = 75
+pesoFinal = (nroPayasos * pesoPayaso) + (nroMuñecas * pesoMuñecas)
+
+print(f'El peso final del paquete es {pesoFinal}g')

@@ -4,3 +4,11 @@
 #preguntar al usuario la edad del cliente y mostrar el precio de la entrada. Si el cliente es menor de 4
 #años puede entrar gratis, si tiene entre 4 y 18 años debe pagar $5 y si es mayor de 18 años, S10.
 
+edad = int(input('Ingresa tu edad: '))
+
+if edad < 4:
+    print('Ingreso gratuito')
+elif edad >= 4 and edad <= 18:
+    print('El precio de la entrada es $5')
+elif edad > 18:
+    print('El precio de la entrada es $10')
