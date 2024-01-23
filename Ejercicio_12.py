@@ -14,7 +14,7 @@
 
 nombre = input('Ingrese el nombre del archivo: ')
 n = nombre.index('.')
-indice = int(nombre[n:])
+sufijo = nombre[n:].lower()
 mime = {
         '.gif': 'image/gif',
         '.jpg': 'image/jpeg',
@@ -24,3 +24,8 @@ mime = {
         '.txt': 'text/plain',
         '.zip': 'application/zip'
     }
+
+if sufijo in mime:
+    print(f"El tipo MIME del archivo {nombre} es: {mime[sufijo]}")
+else:
+    print(f"El tipo MIME del archivo {nombre} es: application/octet-stream")
