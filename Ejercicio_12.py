@@ -13,3 +13,14 @@
 #ningún sufijo, en su lugar su programa deberá devolver application/octet-stream.
 
 nombre = input('Ingrese el nombre del archivo: ')
+n = nombre.index('.')
+indice = int(nombre[n:])
+mime = {
+        '.gif': 'image/gif',
+        '.jpg': 'image/jpeg',
+        '.jpeg': 'image/jpeg',
+        '.png': 'image/png',
+        '.pdf': 'application/pdf',
+        '.txt': 'text/plain',
+        '.zip': 'application/zip'
+    }
