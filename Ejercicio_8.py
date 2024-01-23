@@ -7,4 +7,15 @@
 #suponga que el rango de tiempo de cada comida es inclusivo. Por ejemplo, ya sean las 7:00, las 7:01,
 #las 7:59 o las 8:00, o en cualquier momento intermedio, es hora de desayunar.
 
-hora = input('Ingresa una hora del dia: ')
+hora = input('Ingresa una hora del día: ')
+n = hora.index(':')
+hora_numerica = int(hora[:n])
+
+if 7 <= hora_numerica <= 8:
+    print("Es hora de desayunar.")
+elif 12 <= hora_numerica <= 13:
+    print("Es hora de almorzar.")
+elif 18 <= hora_numerica <= 19:
+    print("Es hora de cenar.")
+else:
+    print('Hora no válida')
